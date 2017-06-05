@@ -1,11 +1,23 @@
 {
-  "name": "photo-hub",
+  "name": "photohub",
   "version": "0.0.1",
-  "description": "Photo App",
-  "main": "index.html",
+  "description": "An app to book photographers online",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunilbt/PhotoHub.git"
+  },
   "author": "sunilbt",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunilbt/PhotoHub/issues"
+  },
+  "homepage": "https://github.com/sunilbt/PhotoHub#readme",
+  "dependencies": {
+    "angular": "^1.6.4",
+    "express": "^4.15.3"
+  }
 }

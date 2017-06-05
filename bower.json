@@ -1,0 +1,10 @@
+{
+  "name": "photohub",
+  "description": "An app to book photographers online",
+  "main": "app/index.html",
+  "authors": [
+    "sunilbt"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sunilbt/PhotoHub"
+}

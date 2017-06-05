@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="photohubApp">
+    <head>
+        <meta charset="UTF-8">        
+        <title>Quad Photo Hub</title>
+
+        <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
+        <script src="/bower_components/angular/angular.js"></script>
+        <script src="app.js"></script>
+    </head>
+    <body ng-controller="PhotographerListController">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li ng-repeat="photographer in photographers">
+                            <span>{{photographer.name}}</span>
+                            <p>{{photographer.snippet}}</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
