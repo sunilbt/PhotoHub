@@ -6,20 +6,14 @@
 
         <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
         <script src="/bower_components/angular/angular.js"></script>
-        <script src="app.js"></script>
+        <script src="/bower_components/angular-route/angular-route.js"></script>
+        <script src="app.module.js"></script>
+        <script src="app.config.js"></script>
+        <script src="photographer-list/photographer-list.module.js"></script>
+        <script src="photographer-list/photographer-list.component.js"></script>
+
     </head>
-    <body ng-controller="PhotographerListController">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <ul>
-                        <li ng-repeat="photographer in photographers">
-                            <span>{{photographer.name}}</span>
-                            <p>{{photographer.snippet}}</p>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    <body>
+        <div ng-view></div>
     </body>
 </html>

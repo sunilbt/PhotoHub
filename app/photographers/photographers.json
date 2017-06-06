@@ -1,0 +1,23 @@
+[
+     {
+        "id": "xd345thy",
+        "name": "Krishna Sagar",
+        "snippet": "Capture the moments",
+        "experience": 6,
+        "imageUrl":"img/photographers/krishna.0.jpg"
+    },
+    {
+        "id": "rd7867thy",
+        "name": "Kiran Kandagal",
+        "snippet": "hire me or fire me",
+        "experience": 1,
+        "imageUrl":"img/photographers/kiran.0.jpg"
+    },
+    {
+        "id": "sa3452edd",
+        "name": "Suraj Anthony",
+        "snippet": "give the best",
+        "experience": 3,
+        "imageUrl":"img/photographers/suraj.0.jpg"
+    }
+]
