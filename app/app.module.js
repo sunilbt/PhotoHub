@@ -1,1 +1,1 @@
-angular.module('photohubApp',['ngRoute','photographerList']);
+angular.module('photohubApp',['ngRoute','ngCookies','photographerList','navbar','login','services.authentication']);
