@@ -1,31 +1,62 @@
 <div class="fluid-container">
+
     <div class="row">
         <div class="col-md-2">
-            <!--Sidebar content -->
-            <p>
-                Search: <input ng-model="$ctrl.query" />                        
-            </p>
 
-            <p>
-            Sortby:  <select ng-model="$ctrl.orderProp">
-                        <option value="name">Alphabetical</option>
+
+        </div>
+        <div class="col-md-10">
+            <div class="form-inline well">
+                <div class="form-group custom-form-margin">
+                    <label class="control-label custom-control-label">By Name: </label>
+                    <input class="form-control" ng-model="$ctrl.query" placeholder="search by name"/>
+                </div>
+                <div class="form-group custom-form-margin">
+                    <label class="control-label custom-control-label">By Location: </label>
+                    <input class="form-control" ng-model="$ctrl.query2" placeholder="search by location"/>
+                </div>
+                <div class="form-group custom-form-margin">
+                    <label class="control-label custom-control-label">Sort By: </label>
+                    <select class="form-control" ng-model="$ctrl.orderProp">
+                        <option value="name">Alphabetical</option>  
                         <option value="experience">Experience</option>
-                     </select>
-            </p>
+                    </select>
+                </div>
+                <div class="form-group custom-form-margin">
+                    <label class="control-label custom-control-label">Pricing: </label>
+                    <select class="form-control" ng-model="$ctrl.orderPrice">
+                        <option value="name">Low - High</option>  
+                        <option value="experience">High - Low</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-2">
+            <h3>Apply Filters</h3>
+
+            <div ng-repeat="option in $ctrl.options">
+                <input type="checkbox" ng-model="option.selected"/>{{option.name}}
+            </div>
+
         </div>
         <div class="col-md-10">
             <!--Body content-->
-            <ul>
-                <li ng-repeat="x in $ctrl.photographers | filter:$ctrl.query | orderBy:$ctrl.orderProp" class="thumbnail">
-                    <a href="#/photographers/{{x.id}}" class="thumb">
-                        <img ng-src="{{x.imageUrl}}" alt="{{x.name}}" />
-                    </a>
-                    <a href="#/photographers/{{x.id}}">{{x.name}}</a>
-                    <p>{{x.snippet}}</p>
-                </li>
+            <ul class="photographers">
+                <div class="col-md-5" ng-repeat="x in $ctrl.photographers | filter:$ctrl.query | filter:$ctrl.query2 | filter:$ctrl.itemFilter | orderBy:$ctrl.orderProp | orderBy:$ctrl.orderPrice" class="thumbnail photographer-list-item">
+                    <li>                    
+                        <a href="#/photographers/{{x.id}}" class="thumb">
+                            <img ng-src="{{x.imageUrl}}" alt="{{x.name}}" />
+                        </a>
+                        <a href="#/photographers/{{x.id}}">{{x.name}}</a>
+                        <p>{{x.snippet}}</p>                
+                    </li>
+                </div>
             </ul>
-
         </div>        
     </div>
+
 </div>
 

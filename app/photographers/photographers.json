@@ -4,20 +4,32 @@
         "name": "Krishna Sagar",
         "snippet": "Capture the moments",
         "experience": 6,
-        "imageUrl":"img/photographers/krishna.0.jpg"
+        "imageUrl":"img/photographers/krishna.0.jpg",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"30,000",
+        "category":"Kids, Wedding, Short Films",
+        "services" : ["has bakery", "has dispensary"]
     },
     {
         "id": "rd7867thy",
         "name": "Kiran Kandagal",
         "snippet": "hire me or fire me",
         "experience": 1,
-        "imageUrl":"img/photographers/kiran.0.jpg"
+        "imageUrl":"img/photographers/kiran.0.jpg",
+        "location":"Mumbai, Maharashtra",
+        "minimum-price":"10,000",
+        "category":"Candid, Concept",
+        "services" : ["has bakery", "has dispensary", "has food hall", "has kitchen"]
     },
     {
         "id": "sa3452edd",
         "name": "Suraj Anthony",
         "snippet": "give the best",
         "experience": 3,
-        "imageUrl":"img/photographers/suraj.0.jpg"
+        "imageUrl":"img/photographers/suraj.0.jpg",
+        "location":"Panaji, Goa",
+        "minimum-price":"8,000",
+        "category":"Concept, Events",
+        "services" : ["has food hall", "has kitchen"]
     }
 ]

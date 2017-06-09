@@ -5,9 +5,17 @@ angular.
             $locationProvider.hashPrefix('');
 
             $routeProvider.
+                when('/',{
+                    template: '<navbar></navbar>'+
+                              '<home></home>'
+                }).
                 when('/login',{
                     template: '<navbar></navbar>'+
                               '<login></login>'
+                }).
+                when('/register',{
+                    template: '<navbar></navbar>'+
+                              '<register></register>'
                 }).
                 when('/photographers', {
                     template: '<navbar></navbar>'+
@@ -16,6 +24,6 @@ angular.
                 when('/photographers/:photographersId', {
                     template: '<div>ID not added</div>'
                 }).
-                otherwise('/photographers');
+                otherwise('/login');
         }
     ]);

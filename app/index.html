@@ -5,6 +5,7 @@
         <title>Quad Photo Hub</title>
 
         <link rel="stylesheet" href="css/custom.css" />
+        <link rel="stylesheet" href="css/app.css" />
         <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
 
         <script src="/bower_components/jquery/dist/jquery.js"></script>
@@ -20,18 +21,25 @@
         <script src="photographer-list/photographer-list.component.js"></script>
         <script src="navbar/navbar.module.js"></script>
         <script src="navbar/navbar.component.js"></script>
+        <script src="home/home.module.js"></script>
+        <script src="home/home.component.js"></script>
         <script src="login/login.module.js"></script>
         <script src="login/login.component.js"></script>
+        <script src="register/register.module.js"></script>
+        <script src="register/register.component.js"></script>
 
         <script src="services/authentication.module.js"></script>
         <script src="services/authentication.services.js"></script>
         <script src="services/user.module.js"></script>
         <script src="services/user.services.js"></script>
+        <script src="services/local.user.module.js"></script>
+        <script src="services/local.user.services.js"></script>
         <script src="services/flash.module.js"></script>
         <script src="services/flash.services.js"></script>
 
     </head>
     <body>
+        <div ng-class="{ 'alert': flash, 'alert-success': flash.type === 'success', 'alert-danger': flash.type === 'error' }" ng-if="flash" ng-bind="flash.message"></div>
         <div ng-view></div>
     </body>
 </html>
