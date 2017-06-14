@@ -1,5 +1,5 @@
 [
-     {
+    {
         "id": "xd345thy",
         "name": "Krishna Sagar",
         "snippet": "Capture the moments",
@@ -8,7 +8,8 @@
         "location":"Bangalore, Karnataka",
         "minimum-price":"30,000",
         "category":"Kids, Wedding, Short Films",
-        "services" : ["has bakery", "has dispensary"]
+        "gender":"Male",
+        "price":"1000"
     },
     {
         "id": "rd7867thy",
@@ -19,7 +20,8 @@
         "location":"Mumbai, Maharashtra",
         "minimum-price":"10,000",
         "category":"Candid, Concept",
-        "services" : ["has bakery", "has dispensary", "has food hall", "has kitchen"]
+        "gender":"Male",
+        "price":"10000"
     },
     {
         "id": "sa3452edd",
@@ -30,6 +32,307 @@
         "location":"Panaji, Goa",
         "minimum-price":"8,000",
         "category":"Concept, Events",
-        "services" : ["has food hall", "has kitchen"]
+        "gender":"Male",
+        "price":"30000"
+    },
+    {
+        "id": "sa3459dgf",
+        "name": "Rakshatha Shivakumar",
+        "snippet": "The best pics you will",
+        "experience": 4,
+        "imageUrl":"img/photographers/rakshu.0.jpg",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"80,000",
+        "category":"Wedding, Events",
+        "gender":"Female",
+        "price":"70000"
+    },
+        {
+        "id": "xdfgdsg",
+        "name": "Sunil BT",
+        "snippet": "Capture the moments",
+        "experience": 6,
+        "imageUrl":"http://lorempixel.com/100/100/people/1/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"30,000",
+        "category":"Kids, Wedding, Short Films",
+        "gender":"Male",
+        "price":"1000"
+    },
+    {
+        "id": "rd7867thy",
+        "name": "Kumar Selva",
+        "snippet": "hire me or fire me",
+        "experience": 1,
+        "imageUrl":"http://lorempixel.com/100/100/people/2/",
+        "location":"Chennai, Tamil Nadu",
+        "minimum-price":"10,000",
+        "category":"Candid, Concept",
+        "gender":"Male",
+        "price":"10000"
+    },
+    {
+        "id": "sa345xxc2edd",
+        "name": "Devilliers",
+        "snippet": "give the best",
+        "experience": 3,
+        "imageUrl":"http://lorempixel.com/100/100/people/4/",
+        "location":"Panaji, Goa",
+        "minimum-price":"8,000",
+        "category":"Concept, Events, Fashion",
+        "gender":"Male",
+        "price":"30000"
+    },
+    {
+        "id": "sa34xve59dgf",
+        "name": "Sangamesh Sajjan",
+        "snippet": "The best pics you will",
+        "experience": 4,
+        "imageUrl":"http://lorempixel.com/100/100/people/5/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"80,000",
+        "category":"Wedding, Events",
+        "gender":"Mmale",
+        "price":"70000"
+    },
+        {
+        "id": "xd3dg45thy",
+        "name": "Nithin Narayan",
+        "snippet": "Capture the moments",
+        "experience": 6,
+        "imageUrl":"http://lorempixel.com/100/100/people/7/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"30,000",
+        "category":"Kids, Wedding, Short Films",
+        "gender":"Male",
+        "price":"1000"
+    },
+    {
+        "id": "rd78fg67thy",
+        "name": "Vinay Kumar",
+        "snippet": "hire me or fire me",
+        "experience": 1,
+        "imageUrl":"http://lorempixel.com/100/100/people/7/",
+        "location":"Mumbai, Maharashtra",
+        "minimum-price":"10,000",
+        "category":"Candid, Concept",
+        "gender":"Male",
+        "price":"10000"
+    },
+    {
+        "id": "sa3452edd",
+        "name": "Sudeep Bentha",
+        "snippet": "give the best",
+        "experience": 3,
+        "imageUrl":"http://lorempixel.com/100/100/people/8/",
+        "location":"Panaji, Goa",
+        "minimum-price":"8,000",
+        "category":"Concept, Events",
+        "gender":"Male",
+        "price":"30000"
+    },
+    {
+        "id": "sa3459dgf",
+        "name": "Shiva Kumar",
+        "snippet": "The best pics you will",
+        "experience": 4,
+        "imageUrl":"http://lorempixel.com/100/100/people/9/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"80,000",
+        "category":"Wedding, Events",
+        "gender":"Male",
+        "price":"70000"
+    },
+        {
+        "id": "xd345vdsthy",
+        "name": "Madhu Raj",
+        "snippet": "Capture the moments",
+        "experience": 6,
+        "imageUrl":"http://lorempixel.com/100/100/people/10/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"30,000",
+        "category":"Kids, Wedding, Short Films",
+        "gender":"Male",
+        "price":"1000"
+    },
+    {
+        "id": "rd786sdc7thy",
+        "name": "Ranganna",
+        "snippet": "hire me or fire me",
+        "experience": 1,
+        "imageUrl":"http://lorempixel.com/100/100/people/1/",
+        "location":"Mumbai, Maharashtra",
+        "minimum-price":"10,000",
+        "category":"Candid, Concept",
+        "gender":"Male",
+        "price":"10000"
+    },
+    {
+        "id": "sssdfhtht",
+        "name": "Parthasarathy",
+        "snippet": "give the best",
+        "experience": 3,
+        "imageUrl":"http://lorempixel.com/100/100/people/2/",
+        "location":"Panaji, Goa",
+        "minimum-price":"8,000",
+        "category":"Concept, Events",
+        "gender":"Male",
+        "price":"30000"
+    },
+    {
+        "id": "sa3cv9dgf",
+        "name": "DJ Bose",
+        "snippet": "The best pics you will",
+        "experience": 4,
+        "imageUrl":"http://lorempixel.com/100/100/people/3/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"80,000",
+        "category":"Wedding, Events",
+        "gender":"Male",
+        "price":"70000"
+    },
+        {
+        "id": "xd345thy",
+        "name": "Kalpana Katirava",
+        "snippet": "Capture the moments",
+        "experience": 6,
+        "imageUrl":"http://lorempixel.com/100/100/people/4/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"30,000",
+        "category":"Kids, Wedding, Short Films",
+        "gender":"Female",
+        "price":"1000"
+    },
+    {
+        "id": "rd7867thy",
+        "name": "James Mckwin",
+        "snippet": "hire me or fire me",
+        "experience": 1,
+        "imageUrl":"http://lorempixel.com/100/100/people/5/",
+        "location":"Mumbai, Maharashtra",
+        "minimum-price":"100000",
+        "category":"Candid, Concept",
+        "gender":"Male",
+        "price":"200000"
+    },
+    {
+        "id": "sa3452edd",
+        "name": "Rashmi Rajanna",
+        "snippet": "give the best",
+        "experience": 3,
+        "imageUrl":"http://lorempixel.com/100/100/people/7/",
+        "location":"Panaji, Goa",
+        "minimum-price":"8,000",
+        "category":"Concept, Events",
+        "gender":"Female",
+        "price":"30000"
+    },
+    {
+        "id": "sa3459dgf",
+        "name": "Rohan Gowda",
+        "snippet": "The best pics you will",
+        "experience": 4,
+        "imageUrl":"http://lorempixel.com/100/100/people/7/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"80,000",
+        "category":"Wedding, Events",
+        "gender":"Male",
+        "price":"70000"
+    },
+        {
+        "id": "xd345thy",
+        "name": "Akshatha Karanth",
+        "snippet": "Capture the moments",
+        "experience": 6,
+        "imageUrl":"http://lorempixel.com/100/100/people/8/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"3,000",
+        "category":"Kids, Wedding, Short Films",
+        "gender":"Female",
+        "price":"1000"
+    },
+    {
+        "id": "jogjjnl",
+        "name": "Sameer Askanth",
+        "snippet": "hire me or fire me",
+        "experience": 1,
+        "imageUrl":"http://lorempixel.com/100/100/people/9/",
+        "location":"Mumbai, Maharashtra",
+        "minimum-price":"10,000",
+        "category":"Candid, Concept, Events",
+        "gender":"Male",
+        "price":"10000"
+    },
+    {
+        "id": "xcvxcvyh",
+        "name": "Pooja Jegde",
+        "snippet": "give the best",
+        "experience": 3,
+        "imageUrl":"http://lorempixel.com/100/100/people/6/",
+        "location":"Panaji, Goa",
+        "minimum-price":"8,000",
+        "category":"Concept, Events",
+        "gender":"Female",
+        "price":"30000"
+    },
+    {
+        "id": "sa3459dgf",
+        "name": "Ramcharan Sinha",
+        "snippet": "The best pics you will",
+        "experience": 4,
+        "imageUrl":"http://lorempixel.com/100/100/people/5/",
+        "location":"Chennai, Tamil Nadu",
+        "minimum-price":"80,000",
+        "category":"Wedding, Events, Candid",
+        "gender":"Male",
+        "price":"70000"
+    },
+        {
+        "id": "xd345thy",
+        "name": "Diganth Manchale",
+        "snippet": "Capture the moments",
+        "experience": 6,
+        "imageUrl":"http://lorempixel.com/100/100/people/4/",
+        "location":"Bangalore, Karnataka",
+        "minimum-price":"30,000",
+        "category":"Kids, Wedding, Short Films, Corporate Films",
+        "gender":"Male",
+        "price":"10000"
+    },
+    {
+        "id": "vzxzvxzv",
+        "name": "Kiran Kandagal",
+        "snippet": "hire me or fire me",
+        "experience": 1,
+        "imageUrl":"http://lorempixel.com/100/100/people/3/",
+        "location":"Raichur, Karnataka",
+        "minimum-price":"10,000",
+        "category":"Documentary Films, Corporate Films, Concept",
+        "gender":"Male",
+        "price":"10000"
+    },
+    {
+        "id": "sa3452edd",
+        "name": "Melwin Roza",
+        "snippet": "give the best",
+        "experience": 3,
+        "imageUrl":"http://lorempixel.com/100/100/people/2/",
+        "location":"Hassan, Karnataka",
+        "minimum-price":"8,000",
+        "category":"Concept, Fashion",
+        "gender":"Male",
+        "price":"280000"
+    },
+    {
+        "id": "sagfjfdgf",
+        "name": "Anurag Kashyap",
+        "snippet": "The best pics you will",
+        "experience": 4,
+        "imageUrl":"http://lorempixel.com/100/100/people/1/",
+        "location":"Mangalore, Karnataka",
+        "minimum-price":"80,000",
+        "category":"Wedding, Events, Product",
+        "gender":"Male",
+        "price":"170000"
     }
 ]

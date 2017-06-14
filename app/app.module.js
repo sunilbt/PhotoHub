@@ -1,1 +1,1 @@
-angular.module('photohubApp',['ngRoute','ngCookies','photographerList','navbar','login','register','home','services.authentication']);
+angular.module('photohubApp',['ngRoute','ngCookies','ui.bootstrap','rzModule','photographerList','navbar','login','register','home','services.authentication']);

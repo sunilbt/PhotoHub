@@ -1,1 +1,1 @@
-angular.module('photographerList',[]);
+angular.module('photographerList',['rzModule','ui.bootstrap']);
