@@ -18,6 +18,9 @@
   "homepage": "https://github.com/sunilbt/PhotoHub#readme",
   "dependencies": {
     "angular": "^1.6.4",
-    "express": "^4.15.3"
+    "express": "^4.15.3",
+    "mongodb": "^2.2.29",
+    "mongodb-stitch": "0.0.16",
+    "mongoose": "^4.10.8"
   }
 }
